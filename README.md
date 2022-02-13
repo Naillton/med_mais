@@ -1,1 +1,1 @@
-# med_mais
+# med_mais, projeto desenvolvido por mim usando alguns conceitos de tudo que aprendi até aqui. a clinica foi o projeto escolhido então decidi fazer uma pequena page mostrando algumas informações sobre a clinica.
