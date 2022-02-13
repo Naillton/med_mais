@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(135, 219, 191);
+    padding: 15px 20px;
+}
+
+.link ul {
+    list-style: none;
+    display: flex;
+    flex-direction: wrap;
+}
+
+li {
+    margin: 0px 20px;
+}
+
+.image img {
+    width: 100%;
+    position: relative;
+    filter: blur(2px);
+}
+
+.paragraph {
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    font-size: 40px;
+    font-weight: 500;
+    width: 50%;
+    color: rgb(20, 18, 129);
+    text-shadow: 2px 0 rgb(255, 255, 255);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    height: 20px;
+    color: rgb(10, 45, 121);
+    background-image: linear-gradient(white, rgb(135, 219, 191));
+}
+
+.icons img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.icons p {
+    text-align: center;
+}
+
+.doctor-img img {
+    width: 300px;
+}
+
+.especialidades {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container-icon {
+    width: 700px;
+    margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.location h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(10, 45, 121);
+}
+
+.location iframe {
+    margin: 10px 380px;
+}
+
+footer {
+    background-color: rgb(135, 219, 191);
+    color: rgb(10, 45, 121);
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1 {
+    padding: 10px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .paragraph {
+        display: none;
+    }
+    
+    .location iframe {
+        margin: 0px auto;
+        width: 100%;   
+    }
+
+    .doctor-img {
+        display: none;
+    }
+
+    .link {
+        display: none;
+    }
+
+    #img-title {
+        margin: 0 auto;
+    }
+}
